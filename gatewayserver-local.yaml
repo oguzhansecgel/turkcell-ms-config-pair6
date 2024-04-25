@@ -21,6 +21,8 @@ spring:
             uri: http://localhost:8888
             predicates:
               - Path=/eureka/**
+          - id: authserver
+            uri: lb://authserver
 server:
   port: 8080
 eureka:
