@@ -17,8 +17,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8888/eureka/
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: true
+    fetchRegistry: true
 
 
 jwt:
